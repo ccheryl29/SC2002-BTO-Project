@@ -1,4 +1,4 @@
-package com.btos.views;
+package com.btos.sc2002project;
 import java.util.Scanner;
 
 public class ApplicantDashboard implements MainMenuView {
