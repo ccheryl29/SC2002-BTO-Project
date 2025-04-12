@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>BTOContollers</name>
+=======
+	<name>com.btos.sc2002project</name>
+>>>>>>> e0452105ba1c27deb4bcdaae50bf1fc1eeff78e8
 	<comment></comment>
 	<projects>
 	</projects>
