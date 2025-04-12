@@ -1,16 +1,17 @@
-
 public class ReportController {
-    private ReportService service;
+    private final ReportService reportService;
 
-    public ReportController(ReportService service) {
-        this.service = service;
+    public ReportController(ReportService reportService) {
+        this.reportService = reportService;
     }
 
-    public void generateEnquiryReport(BTOProject project) {
-        service.generateEnquiryReport(project);
+    public void generateFlatBookingReport() {
+        String report = reportService.generateAllFlatBookingReport();
+        System.out.println(report);
     }
 
-    public void generateApplicationReport(BTOProject project) {
-        service.generateApplicationReport(project);
+    public void generateFilteredReport(String maritalStatus, FlatType flatType) {
+        String report = reportService.generateFilteredBookingReport(maritalStatus, flatType);
+        System.out.println(report);
     }
 }
