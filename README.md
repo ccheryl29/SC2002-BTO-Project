@@ -31,7 +31,7 @@ It was developed using **Object-Oriented Design and Programming (OODP)** princip
 
 
 ## Contributors
-
+FCS2 Group 6
 - Thum Mun Kuan
 - Vo Truong Thien Ky
 - Wong Shi Hui Cheryl
