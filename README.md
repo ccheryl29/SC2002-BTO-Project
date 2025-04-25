@@ -12,7 +12,7 @@ It was developed using **Object-Oriented Design and Programming (OODP)** princip
 - bin: compiled class files
 - diagrams: UML class and sequence diagrams
 - html: Javadoc files
-- report: assignment report with reflections on OODP
+- report: assignment report, testing output and presentation slides
 - src: source code of our system
 
 
